@@ -13,13 +13,13 @@ Feature: Login Functionality for WebOrder Page
     When the user provide wrong username "<username>" and  password "<password>"
     Then the user validates the "<errorMessage>" error message
     Examples:
-      | username              | password | errorMessage   |
-      | guest1@microworks.com | Guest1!  | Sign in Failed |
-      | 34583                 | gur      | Sign in Failed |
-      | admin                 | admin&   | Sign in Failed |
-      | home**                | mac      | Sign in Failed |
-      | user                  | pass     | Sign in Failed |
-      |                       |          | Sign in Failed |
+      | username          | password | errorMessage   |
+      | guest1@microworks | Guest1!  | Sign in Failed |
+      | 34583             | gur      | Sign in Failed |
+      | admin             | admin&   | Sign in Failed |
+      | home**            | mac      | Sign in Failed |
+      | user              | pass     | Sign in Failed |
+      |                   |          | Sign in Failed |
 
 
 

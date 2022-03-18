@@ -21,6 +21,6 @@ Feature: Validation of Products
 
     Examples:
       | productName | quantity | customerName | street       | city        | state | zipcode | cartType         | cardNumber | expireDate |
-      | MyMoney     | 4        | Techtorial   | 2200 E Devon | Des Plaines | IL    | 60018   | Visa             | 123456432  | 08/24      |
+      | MyMone     | 4        | Techtorial   | 2200 E Devon | Des Plaines | IL    | 60018   | Visa             | 123456432  | 08/24      |
       | FamilyAlbum | 6        | Walkot       | 4500 E Devon | Des Plaines | IL    | 64418   | MasterCard       | 1234456432 | 08/44      |
-      | ScreenSaver | 7        | Dino         | 2255 E Devon | Chicago     | IL    | 60458   | American Express | 1232346432 | 08/24      |
+      | ScreenSaver | 7        | Dino         | 2255 E Devon | Chicago     | IL    | 60458   | AmericanExpress | 1232346432 | 08/24      |

@@ -20,7 +20,7 @@ public class HookProduct {
 
     @Before  //from io.cucumber
     public void beforeScenario() {
-        driver.navigate().to(ConfigReader.readProperty("openmrsurl"));
+        driver.navigate().to(ConfigReader.readProperty("producturl"));
         System.out.println("It runs before each scenario");
     }
 

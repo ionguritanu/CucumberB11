@@ -13,5 +13,5 @@ Feature: Etsy search functionality
       |Hat          |  Hat \| Etsy    |
       |Key          |  Key \| Etsy    |
       |Pin          |  Pin \| Etsy    |
-      |bab          |  notitle        |
+      |bab          |  no title       |
 

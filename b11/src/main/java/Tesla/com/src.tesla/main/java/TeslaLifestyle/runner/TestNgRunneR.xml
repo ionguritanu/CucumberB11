@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+        <suite name="TestNG Runner Practice">
+   <test name ="Tesla Tests">
+       <classes>
+
+           <class name="TeslaLifestyle.test.Us1Test"></class>
+           <class name="TeslaLifestyle.test.Us2Test"></class>
+           <class name="TeslaLifestyle.test.Us3Test"></class>
+           
+           
+       </classes>
+       
+       
+       
+   </test>
+</suite>

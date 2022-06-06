@@ -30,6 +30,7 @@ public class BrowserUtils {
     }
 
 
+
     public static String getTextMethode(WebElement element) {
         return element.getText().trim();
     }
